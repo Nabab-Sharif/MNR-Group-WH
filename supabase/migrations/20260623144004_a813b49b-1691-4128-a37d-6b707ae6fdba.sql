@@ -1,0 +1,1 @@
+ALTER TABLE public.app_users ADD COLUMN IF NOT EXISTS can_clear_notifications boolean NOT NULL DEFAULT false;

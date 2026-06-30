@@ -1,0 +1,2 @@
+ALTER TABLE public.notifications ADD COLUMN IF NOT EXISTS hidden_by jsonb NOT NULL DEFAULT '[]'::jsonb;
+ALTER TABLE public.carton_history ADD COLUMN IF NOT EXISTS hidden_by jsonb NOT NULL DEFAULT '[]'::jsonb;

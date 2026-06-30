@@ -1,0 +1,1 @@
+ALTER TABLE public.receive_cartons ADD COLUMN IF NOT EXISTS rack text;
